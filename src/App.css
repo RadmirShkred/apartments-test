@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+
+.flats {
+    margin: 15px;
+}
+
+.flat__content, .flat__agent {
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    padding-bottom: 15px;
+}
+
+.flat__agent, .flat__like {
+    padding-top: 15px;
+}
+
+
