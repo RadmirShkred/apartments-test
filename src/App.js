@@ -29,7 +29,6 @@ function App() {
       <div className="flats card-deck">
         {flats &&
         flats.map((flat) => {
-          console.log(flat.id)
           return (
             <div className="card card__custom" key={flat.id}>
               <img src={images(`./${flat.id}.jpg`)} className="card-img-top" alt="flat"/>
